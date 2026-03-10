@@ -1,0 +1,63 @@
+/* Styling halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0a0a0f, #1a1a2e);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #111;
+    padding: 20px;
+    border: 3px solid #e53935; /* merah ranger */
+    border-radius: 8px;
+    box-shadow: 
+        0 0 10px #e53935,
+        0 0 20px #1e88e5; /* biru ranger */
+}
+
+/* Header utama */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffeb3b; /* kuning ranger */
+    text-shadow: 
+        0 0 8px #ffeb3b,
+        0 0 12px #e53935;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(
+        to right,
+        #e53935,  /* merah */
+        #1e88e5,  /* biru */
+        #ffeb3b,  /* kuning */
+        #43a047,  /* hijau */
+        #8e24aa   /* pink */
+    );
+    margin: 12px 0;
+}
+
+/* Greeting */
+small {
+    display: block;
+    text-align: center;
+    color: #ffeb3b;
+    margin-top: 6px;
+    text-shadow: 0 0 6px #ffeb3b;
+}
