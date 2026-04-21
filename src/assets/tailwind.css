@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* ================= FONT ================= */
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/fonts/Barlow-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+}
+
+/* ================= THEME ================= */
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  /* Base Colors */
+  --color-bg: #f9fafb;
+  --color-card: #ffffff;
+
+  /* Text */
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+
+  /* Border */
+  --color-border: #e5e7eb;
+
+  /* Primary Palette */
+  --color-primary: #22c55e;   /* green modern */
+  --color-primary-dark: #16a34a;
+
+  /* Accent */
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+  --color-warning: #f59e0b;
+}
+
+/* ================= GLOBAL STYLE ================= */
+body {
+  @apply font-barlow bg-[var(--color-bg)] text-[var(--color-text-primary)] antialiased;
+}
+
+/* Scrollbar (modern look) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Selection (highlight text) */
+::selection {
+  background: #22c55e;
+  color: white;
+}
+
+/* Smooth transition global */
+* {
+  @apply transition-colors duration-200;
+}
