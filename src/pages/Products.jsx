@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import PageHeader from "../components/PageHeader";
-import productsData from "../data/products.json";
+import productsData from "../data/Products.json";
 import { Link } from "react-router-dom";
 
 export default function Products() {
