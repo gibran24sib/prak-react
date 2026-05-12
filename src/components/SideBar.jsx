@@ -1,7 +1,7 @@
 import { FiHome, FiShoppingCart, FiUsers, FiPlus } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 
-export default function SideBar() {
+export default function Sidebar() {
   const menuItems = [
     { id: "Dashboard", name: "Dashboard", icon: <FiHome />, to: "/" },
     { id: "Orders", name: "Orders", icon: <FiShoppingCart />, to: "/orders" },
@@ -9,7 +9,7 @@ export default function SideBar() {
     { id: "Products", name: "Products", icon: <FiPlus />, to: "/products" },
   ];
 
-  
+
   return (
     <div className="flex min-h-screen w-72 flex-col bg-white border-r border-gray-100 px-6 py-8">
       
