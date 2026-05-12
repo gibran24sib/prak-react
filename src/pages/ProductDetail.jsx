@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import productsData from "../data/products.json"
+import productsData from "../data/Products.json"
 
 export default function ProductDetail() {
     const { id } = useParams()
