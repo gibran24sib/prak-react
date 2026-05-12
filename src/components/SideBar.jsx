@@ -9,6 +9,7 @@ export default function SideBar() {
     { id: "Products", name: "Products", icon: <FiPlus />, to: "/products" },
   ];
 
+  
   return (
     <div className="flex min-h-screen w-72 flex-col bg-white border-r border-gray-100 px-6 py-8">
       
