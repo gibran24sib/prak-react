@@ -7,11 +7,6 @@
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "Barlow";
-  src: url("/fonts/Barlow-SemiBold.ttf");
-  font-weight: 600;
-}
 
 @font-face {
   font-family: "Poppins";
@@ -19,11 +14,7 @@
   font-weight: 400;
 }
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Bold.ttf");
-  font-weight: 700;
-}
+
 
 /* ================= THEME ================= */
 @theme {
