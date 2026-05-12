@@ -6,6 +6,7 @@ export default function SideBar() {
     { id: "Dashboard", name: "Dashboard", icon: <FiHome />, to: "/" },
     { id: "Orders", name: "Orders", icon: <FiShoppingCart />, to: "/orders" },
     { id: "Customers", name: "Customers", icon: <FiUsers />, to: "/customers" },
+    { id: "Products", name: "Products", icon: <FiPlus />, to: "/products" },
   ];
 
   return (
