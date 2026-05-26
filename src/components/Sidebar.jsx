@@ -7,6 +7,7 @@ export default function Sidebar() {
     { id: "Orders", name: "Orders", icon: <FiShoppingCart />, to: "/orders" },
     { id: "Customers", name: "Customers", icon: <FiUsers />, to: "/customers" },
     { id: "Products", name: "Products", icon: <FiPlus />, to: "/products" },
+    { id: "FiturXyz", name: "Fitur Xyz", icon: <FiPlus />, to: "/fitur-xyz" }, 
   ];
 
 
